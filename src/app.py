@@ -22,3 +22,5 @@ if st.button("Predict"):
     data_a_predecir = [[Pregnancies, Glucose, BloodPressure, Insulin, BMI, DiabetesPedigreeFunction, Age]]
     prediction = model.predict(data_a_predecir)[0]
     st.write("Prediction", prediction)
+
+# url : https://intento-2-streamlit-new.onrender.com
